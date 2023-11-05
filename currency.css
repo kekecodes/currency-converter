@@ -1,0 +1,192 @@
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'poppins', Sans-Serif;
+      box-sizing: border-box;
+
+    }
+
+    body {
+
+      background: #0c0309;
+
+    }
+
+    .container {
+      display: grid;
+      text-align: center;
+      align-items: center;
+      width: 60%;
+      height: 100%;
+      max-height: 500%;
+      color: #de6722;
+      background: #fcfcfd;
+      margin: 100px auto 0;
+      border-radius: 20px;
+      padding: 40px 35px;
+    }
+
+    
+    h1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .input-group {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    }
+
+    .output-group {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+
+    }
+
+    select {
+
+      width: 150px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(to bottom, rgb(227, 213, 255), rgb(255, 231, 231));
+    outline: 2px solid #2c9caf;
+      border-radius: 30px;
+      overflow: hidden;
+      cursor: pointer;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+    }
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+    input {
+        
+        width: 200px;
+        height: 40px;
+        caret-color: rgb(255, 81, 0);    
+        background: linear-gradient(to bottom, rgb(227, 213, 255), rgb(255, 231, 231));
+        border: 2px solid #2c9caf;border-radius: 30px;
+        padding-left: 15px;
+        letter-spacing: 0.8px;
+        color: rgb(19, 19, 19);
+        font-size: 13.4px;
+    }
+
+  .div2 {
+    display: flex;
+        justify-content: center;
+        align-content: center;
+    margin-top: 10px;
+  }
+
+    output {
+      width: 100px;
+      padding: 5px;
+      margin: 5px;
+
+        width: 200px;
+            height: 40px;
+            caret-color: rgb(255, 81, 0);
+            background: linear-gradient(to bottom, rgb(227, 213, 255), rgb(255, 231, 231));
+            border-bottom: 2px solid #2c9caf;
+            outline: 2px solid #2c9caf;
+            border-radius: 30px;
+            padding-left: 15px;
+            letter-spacing: 0.8px;
+            color: rgb(19, 19, 19);
+            font-size: 13.4px;
+
+    }
+
+    @media (max-width: 576px) {
+
+      .container {
+
+        width: 100%;
+
+      }
+
+      select,
+      input,
+      button,
+      output {
+
+        width: 100%;
+
+      }
+
+    }
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+    .button {
+display: flex;
+justify-content: center;
+align-content: center;
+      padding: 1em 2em;
+      height: 20%;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #2c9caf;
+      transition: all 1000ms;
+      font-size: 15px;
+      overflow: hidden;
+      outline: 2px solid #2c9caf;
+    }
+    button:hover {
+
+      color: #ffffff;
+
+      transform: scale(1.1);
+
+      outline: 2px solid #70bdca;
+
+      box-shadow: 4px 5px 17px -4px #268391;
+
+    }
+
+    button::before {
+
+      content: "";
+
+      position: absolute;
+
+      left: -50px;
+
+      top: 0;
+
+      width: 0;
+
+      height: 100%;
+
+      background-color: #2c9caf;
+
+      transform: skewX(45deg);
+
+      z-index: -1;
+
+      transition: width 1000ms;
+
+    }
+
+    button:hover::before {
+
+      width: 250%;
+
+    }
+  
